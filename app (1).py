@@ -687,3 +687,5 @@ st.write(""" ## ¿Se valido o no los resultados?
 
 # ![linea 1](https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png)
 """)
+</h1>
+# %%
