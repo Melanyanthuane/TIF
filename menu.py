@@ -482,7 +482,7 @@ if  validacion_de_resultados :
     m_corr_pandas
     m_corr_p = np.round(m_corr_pandas, decimals = 4)
     
-    con  st.eco ():
+    with st.echo ():
         
     st.write ( 'noeliaparedesgu@gmail.com y gparedesg@unsa.edu.pe obtienen el PRIMER indice mas alto de similitud')
     st.write ( 'noeliaparedesgu@gmail.com y elhuamani@unsa.edu.pe obtienen el SEGUNDO indice mas alto de similitud')
