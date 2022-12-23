@@ -8,16 +8,16 @@ if st.experimental_user.email in lista:
     
 
 menu = st.sidebar.markdown("<h2 style='text-align: ; color: black;'>Menu</h2>", unsafe_allow_html=True)
-inicio  =  st.barra lateral botón ( 'Inicio' )
-objetivos  =  st.barra lateral botón ( 'Objetivos' )
-base_teorica  =  st.barra lateral botón ( 'Base Teórica' )
-propuesta  =  st.barra lateral botón ( 'Propuesta' )
-correlacion_de_pearson  =  st.barra lateral boton ( 'Correlacion de Pearson' )
-nueva_correlacion  =  st.barra lateral boton ( 'Nuestra Correlacion' )
-mapa_de_calor  =  calle.barra lateral botón ( 'Mapa de Calor' )
-validacion_de_resultados  =  st.barra lateral botón ( 'Validación de Resultados' )
-conclusiones  =  st.barra lateral botón ( 'Conclusiones' )
-st.estrellas ()
+inicio = st.sidebar.button('Inicio')
+objetivos = st.sidebar.button('Objetivos')
+base_teorica = st.sidebar.button('Base Teorica')
+propuesta = st.sidebar.button('Propuesta')
+correlacion_de_pearson = st.sidebar.button('Correlacion de Pearson')
+nuestra_correlacion = st.sidebar.button('Nuestra Correlacion')
+mapa_de_calor = st.sidebar.button('Mapa de Calor')
+validacion_de_resultados = st.sidebar.button('Validacion de Resultados')
+conclusiones = st.sidebar.button('Conclusiones')
+
 
 if  inicio :
     
