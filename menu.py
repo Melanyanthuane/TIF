@@ -256,8 +256,8 @@ if  propuesta :
     st.imagen ( 'https://scontent.faqp2-2.fna.fbcdn.net/v/t39.30808-6/320883798_857727338791655_4101368769266917084_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeETD5uRsjg_dxuDwF_JnbWyfOJE7kY4m7584kTuRjibvlm73KkXs874kOqskQVA5zUooM-RQSBgw-K9YkE1JiXR&_nc_ohc=wVRttRX5jLQAX_uWnhH&_nc_ht=scontent.faqp2-2.fna&oh=00_AfDG90eMleVW9Z0W8u6abWZjOUgu70j5fkT7UZ0AsOkXQA&oe=63A9649D' )
     
     st.markdown ( "<h2 style='text-align: center; color: black;'>Archivo CSV separado por comas</h2>" , unsafe_allow_html = True )
-    pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
-    st.marco de datos ( pandas )
+    pandas  =  pd.read_csv ( 'ENCUESTA.csv' )
+    st.dataframe( pandas )
     st.markdown ( 'Cantidad de Filas y Columnas' )
     
     st.markdown ( '58 Columnas y 37 Filas' )
