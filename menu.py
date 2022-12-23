@@ -7,7 +7,7 @@ if st.experimental_user.email in lista:
     st.escribir ( 'Bienvenido' , st.experimental_user.email )
     
 
-menú  =  calle.barra lateral markdown ( "<h2 style='text-align: ; color: black;'>Menú</h2>" , unsafe_allow_html = True )
+menu = st.sidebar.markdown("<h2 style='text-align: ; color: black;'>Menu</h2>", unsafe_allow_html=True)
 inicio  =  st.barra lateral botón ( 'Inicio' )
 objetivos  =  st.barra lateral botón ( 'Objetivos' )
 base_teorica  =  st.barra lateral botón ( 'Base Teórica' )
