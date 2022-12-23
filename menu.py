@@ -67,7 +67,7 @@ if  objetivos :
 
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     
-si  base_teorica :
+if  base_teorica :
     
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     
@@ -178,55 +178,55 @@ si  base_teorica :
 
     st.imagen ('https://miro.medium.com/max/1400/1*JTEqCz-VU16nkkUwzyWp_w.png')
     
-    st . markdown ( "<h2 style='text-align: color: black;'>Seaborn:</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: color: black;'>Seaborn:</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( 'Es una librería para Python que permite generar fácilmente gráficos. Seaborn está basada en matplotlib y proporciona una interfaz de alto nivel . Tiene como objetivo convertir la visualización en una parte central de la exploración y comprensión de los datos, generando atractivas gráficas con sencillas funciones que ofrecen una interfaz semejante, facilitando el paso de unas funciones a otras.' )
+    st.markdown ( 'Es una librería para Python que permite generar fácilmente gráficos. Seaborn está basada en matplotlib y proporciona una interfaz de alto nivel . Tiene como objetivo convertir la visualización en una parte central de la exploración y comprensión de los datos, generando atractivas gráficas con sencillas funciones que ofrecen una interfaz semejante, facilitando el paso de unas funciones a otras.' )
     
 
-    st . imagen ( 'https://livecodestream.dev/post/how-to-build-beautiful-plots-with-python-and-seaborn/featured.jpg' )
+    st.imagen ( 'https://livecodestream.dev/post/how-to-build-beautiful-plots-with-python-and-seaborn/featured.jpg' )
 
-    st . markdown ( "<h2 style='text-align: color: black;'>¿Qué es la escala Likert?</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: color: black;'>¿Qué es la escala Likert?</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( 'Se utiliza para medir qué tan de acuerdo están los encuestados con una variedad de afirmaciones.Esta es ideal para medir reacciones, actitudes y comportamientos de una persona. A diferencia de una simple pregunta de “sí” / “no”, la escala de Likert permite a los encuestados calificar sus respuestas.' )
+    st.markdown ( 'Se utiliza para medir qué tan de acuerdo están los encuestados con una variedad de afirmaciones.Esta es ideal para medir reacciones, actitudes y comportamientos de una persona. A diferencia de una simple pregunta de “sí” / “no”, la escala de Likert permite a los encuestados calificar sus respuestas.' )
 
-    st . markdown ( 'La escala de Likert es uno de los tipos de escalas de medición utilizados principalmente en la investigación de mercados para la comprensión de las opiniones y actitudes de un consumidor hacia una marca, producto o mercado meta. Nos sirve principalmente para realizar mediciones y conocer sobre el grado de conformidad de una persona o encuestado hacia determinada oración afirmativa o negativa.' )
-    st . markdown ( 'Las respuestas pueden ser ofrecidas en diferentes niveles de medición, permitiendo escalas de 5, 7 y 9 elementos configurados previamente. Siempre se debe tener un elemento neutral para aquellos usuarios que ni de acuerdo ni en desacuerdo.' )
+    st.markdown ( 'La escala de Likert es uno de los tipos de escalas de medición utilizados principalmente en la investigación de mercados para la comprensión de las opiniones y actitudes de un consumidor hacia una marca, producto o mercado meta. Nos sirve principalmente para realizar mediciones y conocer sobre el grado de conformidad de una persona o encuestado hacia determinada oración afirmativa o negativa.' )
+    st.markdown ( 'Las respuestas pueden ser ofrecidas en diferentes niveles de medición, permitiendo escalas de 5, 7 y 9 elementos configurados previamente. Siempre se debe tener un elemento neutral para aquellos usuarios que ni de acuerdo ni en desacuerdo.' )
 
-    st . markdown (  "<h2 style='text-align: color: black;'>CSV (Valores Separados por Comas):</h2>" , unsafe_allow_html = True  )
+    st.markdown (  "<h2 style='text-align: color: black;'>CSV (Valores Separados por Comas):</h2>" , unsafe_allow_html = True  )
 
 
-    st . markdown ( 'Es el formato más común de importación y exportación de hojas de cálculo y bases de datos. Es cualquier archivo de texto en el cual los caracteres están separados por comas, haciendo una especie de tabla en filas y columnas. Las columnas quedan definidas por cada punto y coma (;), mientras que cada fila se define mediante una línea adicional en el texto. De esta manera, se pueden crear archivos CSV con gran facilidad.' )
+    st.markdown ( 'Es el formato más común de importación y exportación de hojas de cálculo y bases de datos. Es cualquier archivo de texto en el cual los caracteres están separados por comas, haciendo una especie de tabla en filas y columnas. Las columnas quedan definidas por cada punto y coma (;), mientras que cada fila se define mediante una línea adicional en el texto. De esta manera, se pueden crear archivos CSV con gran facilidad.' )
 
-    st . imagen ( 'https://acf.geeknetic.es/imgri/imagenes/tutoriales/definiciones/2020/6/Archivo-CSV-qrdy.jpg?f=webp' )
+    st.imagen ( 'https://acf.geeknetic.es/imgri/imagenes/tutoriales/definiciones/2020/6/Archivo-CSV-qrdy.jpg?f=webp' )
 
     
     
-    st . markdown ( "<h2 style='text-align: color: black;'>DATOS FALTANTES</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: color: black;'>DATOS FALTANTES</h2>" , unsafe_allow_html = True )
 
    
-    st . markdown ('Son aquellos que no constan debido a cualquier acontecimiento, como por ejemplo errores en la transcripción de los datos o la ausencia de disposición a responder a ciertas cuestiones de una encuesta. Los datos pueden faltar de manera aleatoria o no aleatoria.')
+    st.markdown ('Son aquellos que no constan debido a cualquier acontecimiento, como por ejemplo errores en la transcripción de los datos o la ausencia de disposición a responder a ciertas cuestiones de una encuesta. Los datos pueden faltar de manera aleatoria o no aleatoria.')
 
-    st . markdown ("<h2 style='text-align: color: black;'>METODOS DE IMPUTACION</h2>" , unsafe_allow_html = True )
+    st.markdown ("<h2 style='text-align: color: black;'>METODOS DE IMPUTACION</h2>" , unsafe_allow_html = True )
 
-    st . markdown ('Los métodos de imputación consisten en estimar los valores ausentes en base a los valores válidos de otras variables y/o casos de la muestra. La estimación se puede hacer a partir de la información del conjunto completo de variables o bien de algunas variables especialmente seleccionadas. Usualmente los métodos de imputación se utilizan con variables métricas (de intervalo o de razón), y deben aplicarse con gran precaución porque pueden introducir relaciones inexistentes en los datos realas.')
+    st.markdown ('Los métodos de imputación consisten en estimar los valores ausentes en base a los valores válidos de otras variables y/o casos de la muestra. La estimación se puede hacer a partir de la información del conjunto completo de variables o bien de algunas variables especialmente seleccionadas. Usualmente los métodos de imputación se utilizan con variables métricas (de intervalo o de razón), y deben aplicarse con gran precaución porque pueden introducir relaciones inexistentes en los datos realas.')
 
     
 
-    st . markdown ('Sustitución por la Media. Consiste en sustituir el valor ausente por la Media de los valores válidos. Este procedimiento plantea inconvenientes como:')
-    st . markdown ('-Dificulta la estimación de la Variáncia.')
+    st.markdown ('Sustitución por la Media. Consiste en sustituir el valor ausente por la Media de los valores válidos. Este procedimiento plantea inconvenientes como:')
+    st.markdown ('-Dificulta la estimación de la Variáncia.')
 
-    st . markdown ('-Distorsiona la verdadera distribución de la variable,')
-    st . markdown ('Distorsiona la correlación entre variables dado que añade valores constantes.')
+    st.markdown ('-Distorsiona la verdadera distribución de la variable,')
+    st.markdown ('Distorsiona la correlación entre variables dado que añade valores constantes.')
 
-    st . markdown ('Sustitución por constante. Consiste en sustituir los valores ausentes por constantes cuyo valor viene determinado por razones teóricas o relacionadas con la investigación previa. Presenta los mismos inconvenientes que la sustitución por la Media, y solo debe ser utilizado si hay razones para suponer que es más adecuado que el método de la media.')
+    st.markdown ('Sustitución por constante. Consiste en sustituir los valores ausentes por constantes cuyo valor viene determinado por razones teóricas o relacionadas con la investigación previa. Presenta los mismos inconvenientes que la sustitución por la Media, y solo debe ser utilizado si hay razones para suponer que es más adecuado que el método de la media.')
 
-    st . markdown ("<h2 style='text-align: color: black;'>¿Qué es un framework?</h2>" , unsafe_allow_html = True )
+    st.markdown ("<h2 style='text-align: color: black;'>¿Qué es un framework?</h2>" , unsafe_allow_html = True )
 
-    st . markdown ('Es una especie de plantilla, un esquema conceptual, que simplifica la elaboración de una tarea, ya que solo es necesario complementarlo de acuerdo a lo que se quiere realizar.')
+    st.markdown ('Es una especie de plantilla, un esquema conceptual, que simplifica la elaboración de una tarea, ya que solo es necesario complementarlo de acuerdo a lo que se quiere realizar.')
 
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
 
-si  propuesta :
+if  propuesta :
     
     st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     st . markdown ( "<h2 style='text-align: center; color: black;'>Propuesta</h2>" , unsafe_allow_html = True )
