@@ -390,7 +390,7 @@ if  nueva_correlacion :
     
     m_corr_p = np.round(m_corr_pandas, decimals = 4)
     
-    whith st.echo():   
+    with st.echo():   
     def tidy_corr_matrix(corr_pandas):
     '''
     Función para convertir una matriz de correlación de pandas en formato tidy.
