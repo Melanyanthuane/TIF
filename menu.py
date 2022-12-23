@@ -481,12 +481,9 @@ if  validacion_de_resultados :
     m_corr_pandas = df.corr()
     m_corr_pandas
     m_corr_p = np.round(m_corr_pandas, decimals = 4)
-    
-    with st.echo ():
+   
       
-    
 if  conclusiones:
-    
 
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )  
     st.markdown ( "<h2 style='text-align: center ; color: black;'>Conclusiones</h2>" , unsafe_allow_html = True )
