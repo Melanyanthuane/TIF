@@ -423,9 +423,7 @@ if  mapa_de_calor :
     m_corr_p = np.round(m_corr_pandas, decimals = 4)  
 
     def tidy_corr_matrix(corr_pandas):
-    '''
-    Función para convertir una matriz de correlación de pandas en formato tidy.
-    '''
+   
         corr_pandas = corr_pandas.stack().reset_index()
         corr_pandas.columns = ['Datos1','Datos2','relacion']
         corr_pandas = corr_pandas.loc[corr_pandas['Datos1'] != corr_pandas['Datos2'], :]
