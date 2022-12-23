@@ -161,7 +161,7 @@ if  base_teorica :
 
     st.imagen ('https://aprendeconalf.es/docencia/python/manual/img/arrays.png')
     
-    st.markdown ("<h2 style='text-align: color: black;'>¿Qué es PANDAS?</h2>" , unsafe_allow_html = True ')                
+    st.markdown ("<h2 style='text-align: color: black;'>¿Qué es PANDAS?</h2>" , unsafe_allow_html = True )                
 
     st.markdown ( 'Pandas es una librería de código abierto que ofrece unas estructuras muy poderosas y flexibles que facilitan la manipulación y tratamiento de datos.Las principales funciones de pandas son :cargar datos, modelar, analizar, manipular y prepararlos.' )
 
