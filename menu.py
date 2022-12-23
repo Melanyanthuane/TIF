@@ -3,7 +3,7 @@ import  pandas  as  pd
 import  numpy as np  
 
 lista  = [ 'nchambillac@unsa.edu.pe' ]
-if  st.usuario_experimental.correo electrónico  in lista :
+if st.experimental_user.email in lista: 
     st.escribir ( 'Bienvenido' , st.experimental_user.email )
     
 
