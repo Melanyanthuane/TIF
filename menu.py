@@ -394,7 +394,7 @@ if  mapa_de_calor :
     
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
-    marco de datos1  =  pd . Marco de datos ( pandas )
+    dataframe1  =  pd . Marco de datos ( pandas )
     lista1  =  dataframe1 [ 'Dirección de correo electrónico' ]. tolista ()
     data['CREO EN TI']=data['CREO EN TI'].replace(np.nan,4)
     data['COLGANDO EN TUS MANOS']=data['COLGANDO EN TUS MANOS'].replace(np.nan,4)
@@ -456,7 +456,7 @@ if  validacion_de_resultados :
     st.markdown ( "<h2 style='text-align: ; color: black;'>Validación de Resultados de Pandas</h2>" , unsafe_allow_html = True )
     st.markdown ( 'Valores de Similitud en pandas' )
     pandas  =  pd.read_csv ( 'ENCUESTA.csv' )
-    marco de datos1  =  pd.dataframe ( pandas )
+    dataframe1  =  pd.dataframe ( pandas )
     lista1  =  dataframe1 [ 'Dirección de correo electrónico' ]. tolista ()
     data['CREO EN TI']=data['CREO EN TI'].replace(np.nan,4)
     data['COLGANDO EN TUS MANOS']=data['COLGANDO EN TUS MANOS'].replace(np.nan,4)
