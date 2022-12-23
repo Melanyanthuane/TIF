@@ -3,180 +3,180 @@ import  pandas  as  pd
 import  numpy as np  
 
 lista  = [ 'nchambillac@unsa.edu.pe' ]
-si  st . usuario_experimental . correo electrónico  en  la lista :
-    st . escribir ( 'Bienvenido' , st . experimental_user . email )
+if  st.usuario_experimental.correo electrónico  en  la lista :
+    st.escribir ( 'Bienvenido' , st . experimental_user.email )
     
 
-menú  =  calle . barra lateral markdown ( "<h2 style='text-align: ; color: black;'>Menú</h2>" , unsafe_allow_html = True )
-inicio  =  st . barra lateral botón ( 'Inicio' )
-objetivos  =  st . barra lateral botón ( 'Objetivos' )
-base_teorica  =  st . barra lateral botón ( 'Base Teórica' )
-propuesta  =  st . barra lateral botón ( 'Propuesta' )
-correlacion_de_pearson  =  st . barra lateral boton ( 'Correlacion de Pearson' )
-nueva_correlacion  =  st . barra lateral boton ( 'Nuestra Correlacion' )
-mapa_de_calor  =  calle . barra lateral botón ( 'Mapa de Calor' )
-validacion_de_resultados  =  st . barra lateral botón ( 'Validación de Resultados' )
-conclusiones  =  st . barra lateral botón ( 'Conclusiones' )
-st . estrellas ()
+menú  =  calle.barra lateral markdown ( "<h2 style='text-align: ; color: black;'>Menú</h2>" , unsafe_allow_html = True )
+inicio  =  st.barra lateral botón ( 'Inicio' )
+objetivos  =  st.barra lateral botón ( 'Objetivos' )
+base_teorica  =  st.barra lateral botón ( 'Base Teórica' )
+propuesta  =  st.barra lateral botón ( 'Propuesta' )
+correlacion_de_pearson  =  st.barra lateral boton ( 'Correlacion de Pearson' )
+nueva_correlacion  =  st.barra lateral boton ( 'Nuestra Correlacion' )
+mapa_de_calor  =  calle.barra lateral botón ( 'Mapa de Calor' )
+validacion_de_resultados  =  st.barra lateral botón ( 'Validación de Resultados' )
+conclusiones  =  st.barra lateral botón ( 'Conclusiones' )
+st.estrellas ()
 
-si  inicio :
+if  inicio :
     
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Universidad Nacional de San Agustín de Arequipa </h2>" , unsafe_allow_html = True )
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Escuela Profesional de Ingeniería de Telecomunicaciones </h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Universidad Nacional de San Agustín de Arequipa </h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Escuela Profesional de Ingeniería de Telecomunicaciones </h2>" , unsafe_allow_html = True )
 
-    st . imagen ( 'https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png' )
+    st.imagen ( 'https://www.unsa.edu.pe/wp-content/uploads/sites/3/2018/05/Logo-UNSA.png' )
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Ingeniero Renzo Bolivar - Docente DAIE</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Ingeniero Renzo Bolivar - Docente DAIE</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Curso : Computación 1 </h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Curso : Computación 1 </h2>" , unsafe_allow_html = True )
 
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>GRUPO A </h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>GRUPO A </h2>" , unsafe_allow_html = True )
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Alumnos:</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Alumnos:</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Chambilla Cayo,Nohelia Kathia</h2>" , unsafe_allow_html = True )   
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Chambilla Cayo,Nohelia Kathia</h2>" , unsafe_allow_html = True )   
      
 
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>INVESTIGACIÓN FORMATIVA</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>INVESTIGACIÓN FORMATIVA</h2>" , unsafe_allow_html = True )
   
-    st . markdown ( "<h2 style='text-align: center; color: black;'>PYTHON - Inteligencia Artificial</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>PYTHON - Inteligencia Artificial</h2>" , unsafe_allow_html = True )
     
     
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
+   
+if  objetivos :
     
-si  objetivos :
-    
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
-    st . markdown ( "<h2 style='text-align: color: black;'>Los objetivos de la investigación formativa son:</h2>" , unsafe_allow_html = True )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
+    st.markdown ( "<h2 style='text-align: color: black;'>Los objetivos de la investigación formativa son:</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( '1. Competencia Comunicativa Presentación de sus resultados con lenguaje de programación Python utilizando los archivos Jupyter Notebook.' )
+    st.markdown ( '1. Competencia Comunicativa Presentación de sus resultados con lenguaje de programación Python utilizando los archivos Jupyter Notebook.' )
 
 
-    st . markdown ( '2. Competencia Aprendizaje: con las aptitudes en Descomposición (desarticular el problema en pequeñas series de soluciones), Reconocimiento de Patrones (encontrar simulitud al momento de resolver problemas), Abstracción (omitir información relevante), Algoritmos (pasos para resolución de un problema)' )
+    st.markdown ( '2. Competencia Aprendizaje: con las aptitudes en Descomposición (desarticular el problema en pequeñas series de soluciones), Reconocimiento de Patrones (encontrar simulitud al momento de resolver problemas), Abstracción (omitir información relevante), Algoritmos (pasos para resolución de un problema)' )
 
-    st . markdown ( '3. Competencia de Trabajo en Equipo: exige habilidades individuales y grupales orientadas a la cooperación, planificación, coordinación, prevista de tareas, cumplimiento de tareas y solución de conflictos en pro de un trabajo colectivo, utilizando los archivos Jupyter Notebook los cuales se sincronizan en el servidor Gitlab con comandos Git.' )
+    st.markdown ( '3. Competencia de Trabajo en Equipo: exige habilidades individuales y grupales orientadas a la cooperación, planificación, coordinación, prevista de tareas, cumplimiento de tareas y solución de conflictos en pro de un trabajo colectivo, utilizando los archivos Jupyter Notebook los cuales se sincronizan en el servidor Gitlab con comandos Git.' )
 
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926252-2b8a0c00-a448-11eb-9d9c-b43beaf0ff68.png' )
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Aplicación en IA </h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Aplicación en IA </h2>" , unsafe_allow_html = True )
 
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     
 si  base_teorica :
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Base Teórica</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Base Teórica</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( "<h2 style='text-align: color: black;'>Análisis de Correlación</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: color: black;'>Análisis de Correlación</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( 'El análisis de conexiones es el primer paso para construir modelos explicativos y predictivos más complejos.' )
+    st.markdown ( 'El análisis de conexiones es el primer paso para construir modelos explicativos y predictivos más complejos.' )
 
  
-    st . markdown ( 'A menudo nos interesa observar y medir la relación entre 2 variables numéricas mediante el análisis de transmisión.' )
+    st.markdown ( 'A menudo nos interesa observar y medir la relación entre 2 variables numéricas mediante el análisis de transmisión.' )
 
-    st . markdown ( 'Se trata de una de las técnicas más habituales en análisis de datos y el primer paso necesario antes de construir cualquier modelo explicativo o predictivo más complejo.' )
+    st.markdown ( 'Se trata de una de las técnicas más habituales en análisis de datos y el primer paso necesario antes de construir cualquier modelo explicativo o predictivo más complejo.' )
 
-    st . markdown ( 'Para poder tener el Datset hay que recolectar información a travez de encuentas.' )
+    st.markdown ( 'Para poder tener el Datset hay que recolectar información a travez de encuentas.' )
 
-    st . markdown ( "<h2 style='color: black;'>¿Qué es la conexión?</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='color: black;'>¿Qué es la conexión?</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( 'La coincidencia es un tipo de asociación entre dos variables numéricas, específicamente evalúa la tendencia (creciente o decreciente) en los datos.' )
+    st.markdown ( 'La coincidencia es un tipo de asociación entre dos variables numéricas, específicamente evalúa la tendencia (creciente o decreciente) en los datos.' )
 
-    st . markdown ( 'Dos variables están asociadas cuando una variable nos da información acerca de la otra. Por el contrario, cuando no existe asociación, el aumento o disminución de una variable no nos dice nada sobre el comportamiento de la otra variable.' )
+    st.markdown ( 'Dos variables están asociadas cuando una variable nos da información acerca de la otra. Por el contrario, cuando no existe asociación, el aumento o disminución de una variable no nos dice nada sobre el comportamiento de la otra variable.' )
  
-    st . markdown ( 'Dos variables se correlacionan cuando muestran una tendencia creciente o decreciente.' )
+    st.markdown ( 'Dos variables se correlacionan cuando muestran una tendencia creciente o decreciente.' )
 
-    st . markdown ( "<h2 style='text-align: color: black;'>¿Cómo se mide la conexión?</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: color: black;'>¿Cómo se mide la conexión?</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( 'Tenemos el coeficiente de correlación lineal de Pearson que se sirve para cuantificar tendencias lineales, y el coeficiente de correlación de Spearman que se utiliza para tendencias de aumento o disminución, no obstante lineales pero sí monótonas.' )
+    st.markdown ( 'Tenemos el coeficiente de correlación lineal de Pearson que se sirve para cuantificar tendencias lineales, y el coeficiente de correlación de Spearman que se utiliza para tendencias de aumento o disminución, no obstante lineales pero sí monótonas.' )
 
-    st . markdown ( "<h2 style='text-align: color: black;'>Correlación de Pearson</h2>" , unsafe_allow_html = True )
-
-
-    st . markdown ( 'El coeficiente de correlación lineal de Pearson mide una tendencia lineal entre dos variables numéricas.' )
-
-    st . markdown ( 'Es el método de conexión más utilizado, pero asume que:.' )
-    st . markdown ( '- La tendencia debe ser de tipo lineal.' )
-    st . markdown ( 'No existen valores atípicos (outliers' )
-    st . markdown ( '- Las variables deben ser numéricas.' )
-    st . markdown ( '- Tenemos suficientes datos (algunos autores recomiendan tener más de 30 puntos u observaciones).' )
-
-    st . markdown ( 'Los dos primeros supuestos se pueden evaluar simplemente con un diagrama de dispersión, mientras que para los últimos basta con mirar los datos y evaluar el diseño que tenemos.' )
-
-    st . markdown ( "<h2 style='text-align: color: black;'>Cómo se interpreta la conexión</h2>" , unsafe_allow_html = True )
-
-    st . markdown ( 'El signo nos indica la dirección de la relación, como hemos visto en el diagrama de dispersión.' )
-    st . markdown ( '- un valor positivo indica una relación directa o positiva.' )
-    st . markdown ( '- un valor negativo indica relación indirecta, inversa o negativa.' )
-    st . markdown ( ' - un valor nulo indica que no existe una tendencia entre ambas variables (puede ocurrir que no exista relación o que la relación sea más compleja que una tendencia, por ejemplo, una relación en forma de U).' )
+    st.markdown ( "<h2 style='text-align: color: black;'>Correlación de Pearson</h2>" , unsafe_allow_html = True )
 
 
-    st . markdown ( 'La magnitud nos indica la fuerza de la relación, y toma valores entre $-1$ a $1$. Cuanto más cercano sea el valor a los extremos del intervalo ($1$ o $-1$) más fuerte será la tendencia de las variables, o será menor la dispersión que exista en los puntos alrededor de dicha tendencia .')
-    st . markdown ( '- si la conexión vale $1$ o $-1$ diremos que la conexión es “perfecta”.' )
-    st . markdown ( '- si la conexión vale $0$ diremos que las variables no están correlacionadas.' )
+    st.markdown ( 'El coeficiente de correlación lineal de Pearson mide una tendencia lineal entre dos variables numéricas.' )
 
-    st . imagen ( "https://user-images.githubusercontent.com/25250496/204172549-2ccf3be3-a2b3-4b49-9cd4-adb66e28621d.png" )
+    st.markdown ( 'Es el método de conexión más utilizado, pero asume que:.' )
+    st.markdown ( '- La tendencia debe ser de tipo lineal.' )
+    st.markdown ( 'No existen valores atípicos (outliers' )
+    st.markdown ( '- Las variables deben ser numéricas.' )
+    st.markdown ( '- Tenemos suficientes datos (algunos autores recomiendan tener más de 30 puntos u observaciones).' )
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Fórmula Coeficiente de Correlación de Pearson</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Los dos primeros supuestos se pueden evaluar simplemente con un diagrama de dispersión, mientras que para los últimos basta con mirar los datos y evaluar el diseño que tenemos.' )
 
-    st . imagen ( 'https://www.questionpro.com/blog/wp-content/uploads/2019/07/analisis-de-correlacion-2.jpg' )
+    st.markdown ( "<h2 style='text-align: color: black;'>Cómo se interpreta la conexión</h2>" , unsafe_allow_html = True )
+
+    st.markdown ( 'El signo nos indica la dirección de la relación, como hemos visto en el diagrama de dispersión.' )
+    st.markdown ( '- un valor positivo indica una relación directa o positiva.' )
+    st.markdown ( '- un valor negativo indica relación indirecta, inversa o negativa.' )
+    st.markdown ( ' - un valor nulo indica que no existe una tendencia entre ambas variables (puede ocurrir que no exista relación o que la relación sea más compleja que una tendencia, por ejemplo, una relación en forma de U).' )
 
 
-    st . markdown ( 'Distancia Euclidiana: La distancia euclidiana es la generalización del teorema de Pitágoras.' )
+    st.markdown ( 'La magnitud nos indica la fuerza de la relación, y toma valores entre $-1$ a $1$. Cuanto más cercano sea el valor a los extremos del intervalo ($1$ o $-1$) más fuerte será la tendencia de las variables, o será menor la dispersión que exista en los puntos alrededor de dicha tendencia .')
+    st.markdown ( '- si la conexión vale $1$ o $-1$ diremos que la conexión es “perfecta”.' )
+    st.markdown ( '- si la conexión vale $0$ diremos que las variables no están correlacionadas.' )
 
-    st . imagen ( 'http://3.bp.blogspot.com/-YU7iwu9rMIk/TuZLXuWM_8I/AAAAAAAAGNU/DqsQeCkheMk/s1600/Pit%25C3%25A1goras.png' )
+    st.imagen ( "https://user-images.githubusercontent.com/25250496/204172549-2ccf3be3-a2b3-4b49-9cd4-adb66e28621d.png" )
 
-    st . markdown ( 'Regresión Lineal: La regresión lineal se usa para encontrar una relación lineal entre el objetivo y uno o más predictores.' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Fórmula Coeficiente de Correlación de Pearson</h2>" , unsafe_allow_html = True )
 
-    st . imagen ( 'https://user-images.githubusercontent.com/25250496/204172072-0fabbfdf-1c4c-4f9b-8f42-505d98b18b71.png' )
+    st.imagen ( 'https://www.questionpro.com/blog/wp-content/uploads/2019/07/analisis-de-correlacion-2.jpg' )
 
-    st . markdown ( "<h2 style='text-align: color: black;'>Marco teórico</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( "<h2 style='text-align: color: black;'>¿Que es machine learning?</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Distancia Euclidiana: La distancia euclidiana es la generalización del teorema de Pitágoras.' )
 
-    st . markdown ( 'Machine learning: Es una rama de la inteligencia artificial que es autónoma ya que puede realizar predicciones a partir de procesamiento de datos. Esta tecnología está presente en un sinfín de aplicaciones como las recomendaciones de Netflix o Spotify, las respuestas inteligentes de Gmail o el habla de Siri y Alexa. El ‘machine learning’ es un maestro del reconocimiento de patrones, y es capaz de convertir una muestra de datos en un programa informático capaz de extraer inferencias de nuevos conjuntos de datos para los que no ha sido entrenado previamente Aunque ahora esté de moda, gracias a su capacidad para derrotar a jugadores del Go o resolver cubos de Rubik, su origen se remonta al siglo pasado. “La estadística es sin duda la base fundamental del aprendizaje automático, que básicamente consiste en una serie de algoritmos capaces de analizar grandes cantidades de datos para deducir cuál es el resultado más óptimo para un determinado problema”, añade Espinoza.' )
+    st.imagen ( 'http://3.bp.blogspot.com/-YU7iwu9rMIk/TuZLXuWM_8I/AAAAAAAAGNU/DqsQeCkheMk/s1600/Pit%25C3%25A1goras.png' )
+
+    st.markdown ( 'Regresión Lineal: La regresión lineal se usa para encontrar una relación lineal entre el objetivo y uno o más predictores.' )
+
+    st.imagen ( 'https://user-images.githubusercontent.com/25250496/204172072-0fabbfdf-1c4c-4f9b-8f42-505d98b18b71.png' )
+
+    st.markdown ( "<h2 style='text-align: color: black;'>Marco teórico</h2>" , unsafe_allow_html = True )
+
+    st.markdown ( "<h2 style='text-align: color: black;'>¿Que es machine learning?</h2>" , unsafe_allow_html = True )
+
+    st.markdown ( 'Machine learning: Es una rama de la inteligencia artificial que es autónoma ya que puede realizar predicciones a partir de procesamiento de datos. Esta tecnología está presente en un sinfín de aplicaciones como las recomendaciones de Netflix o Spotify, las respuestas inteligentes de Gmail o el habla de Siri y Alexa. El ‘machine learning’ es un maestro del reconocimiento de patrones, y es capaz de convertir una muestra de datos en un programa informático capaz de extraer inferencias de nuevos conjuntos de datos para los que no ha sido entrenado previamente Aunque ahora esté de moda, gracias a su capacidad para derrotar a jugadores del Go o resolver cubos de Rubik, su origen se remonta al siglo pasado. “La estadística es sin duda la base fundamental del aprendizaje automático, que básicamente consiste en una serie de algoritmos capaces de analizar grandes cantidades de datos para deducir cuál es el resultado más óptimo para un determinado problema”, añade Espinoza.' )
     
 
-    st . imagen ( 'https://www.atriainnovation.com/wp-content/uploads/2021/02/portada.jpg' )
+    st.imagen ( 'https://www.atriainnovation.com/wp-content/uploads/2021/02/portada.jpg' )
 
-    st . markdown ( "<h2 style='text-align: color: black;'>LIBRERIAS PARA CIENCIA DE DATOS:</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: color: black;'>LIBRERIAS PARA CIENCIA DE DATOS:</h2>" , unsafe_allow_html = True )
 
-
-    
-
-    st . markdown ( 'Conjuntos de archivos de código que han sido creados para desarrollar software de manera sencilla. Gracias a ellas, los desarrolladores pueden evitar la duplicidad de código y minimizar errores con mayor agilidad .Estas librerías son altamente prácticas a la hora de implementar flujos de Machine Learning.' )
 
     
 
-    st . markdown ( "<h2 style='text-align: color: black;'>¿Qué es NUMPY?</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Conjuntos de archivos de código que han sido creados para desarrollar software de manera sencilla. Gracias a ellas, los desarrolladores pueden evitar la duplicidad de código y minimizar errores con mayor agilidad .Estas librerías son altamente prácticas a la hora de implementar flujos de Machine Learning.' )
+
+    
+
+    st.markdown ( "<h2 style='text-align: color: black;'>¿Qué es NUMPY?</h2>" , unsafe_allow_html = True )
             
     
-    st . markdown ( 'Es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.Incorpora arrays lo que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.Además cuenta con múltiples herramientas para manejar matrices de una forma muy eficiente.')
+    st.markdown ( 'Es una librería de Python especializada en el cálculo numérico y el análisis de datos, especialmente para un gran volumen de datos.Incorpora arrays lo que permite representar colecciones de datos de un mismo tipo en varias dimensiones, y funciones muy eficientes para su manipulación.Además cuenta con múltiples herramientas para manejar matrices de una forma muy eficiente.')
 
-    st . imagen ('https://aprendeconalf.es/docencia/python/manual/img/arrays.png')
+    st.imagen ('https://aprendeconalf.es/docencia/python/manual/img/arrays.png')
     
-    st . markdown ('"<h2 style='text-align: color: black;'>¿Qué es PANDAS?</h2>" , unsafe_allow_html = True ')                
+    st.markdown ('"<h2 style='text-align: color: black;'>¿Qué es PANDAS?</h2>" , unsafe_allow_html = True ')                
 
-    st . markdown ( 'Pandas es una librería de código abierto que ofrece unas estructuras muy poderosas y flexibles que facilitan la manipulación y tratamiento de datos.Las principales funciones de pandas son :cargar datos, modelar, analizar, manipular y prepararlos.' )
+    st.markdown ( 'Pandas es una librería de código abierto que ofrece unas estructuras muy poderosas y flexibles que facilitan la manipulación y tratamiento de datos.Las principales funciones de pandas son :cargar datos, modelar, analizar, manipular y prepararlos.' )
 
-    st . imagen ('https://profile.es/wp-content/media/Estructuras-de-datos-en-Pandas-1.png')
+    st.imagen ('https://profile.es/wp-content/media/Estructuras-de-datos-en-Pandas-1.png')
     
-    st . markdown ( "<h2 style='text-align: color: black;'>¿Qué es matplotlib?</h2>" , unsafe_allow_html = True  )
-    st . markdown ('Es una biblioteca para la generación de gráficos en dos dimensiones, a partir de datos contenidos en listas en el lenguaje de programación Python. Permite crear y personalizar los tipos de gráficos más comunes, entre ellos:')
-    st . markdown ( '- Diagramas de barras' )
-    st . markdown ( '- Histogramas' )
-    st . markdown ( '- Diagramas de sectores' )
-    st . markdown ( '- Diagramas de areas' )
+    st.markdown ( "<h2 style='text-align: color: black;'>¿Qué es matplotlib?</h2>" , unsafe_allow_html = True  )
+    st.markdown ('Es una biblioteca para la generación de gráficos en dos dimensiones, a partir de datos contenidos en listas en el lenguaje de programación Python. Permite crear y personalizar los tipos de gráficos más comunes, entre ellos:')
+    st.markdown ( '- Diagramas de barras' )
+    st.markdown ( '- Histogramas' )
+    st.markdown ( '- Diagramas de sectores' )
+    st.markdown ( '- Diagramas de areas' )
 
-    st . imagen ( 'https://matplotlib.org/3.1.1/_static/logo2_compressed.svg' )
+    st.imagen ( 'https://matplotlib.org/3.1.1/_static/logo2_compressed.svg' )
 
-    st . imagen ('https://miro.medium.com/max/1400/1*JTEqCz-VU16nkkUwzyWp_w.png')
+    st.imagen ('https://miro.medium.com/max/1400/1*JTEqCz-VU16nkkUwzyWp_w.png')
     
     st . markdown ( "<h2 style='text-align: color: black;'>Seaborn:</h2>" , unsafe_allow_html = True )
 
