@@ -161,7 +161,7 @@ if  base_teorica :
 
     st.imagen ('https://aprendeconalf.es/docencia/python/manual/img/arrays.png')
     
-    st.markdown ('"<h2 style='text-align: color: black;'>¿Qué es PANDAS?</h2>" , unsafe_allow_html = True ')                
+    st.markdown ("<h2 style='text-align: color: black;'>¿Qué es PANDAS?</h2>" , unsafe_allow_html = True ')                
 
     st.markdown ( 'Pandas es una librería de código abierto que ofrece unas estructuras muy poderosas y flexibles que facilitan la manipulación y tratamiento de datos.Las principales funciones de pandas son :cargar datos, modelar, analizar, manipular y prepararlos.' )
 
@@ -228,53 +228,53 @@ if  base_teorica :
 
 if  propuesta :
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Propuesta</h2>" , unsafe_allow_html = True )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Propuesta</h2>" , unsafe_allow_html = True )
 
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
 
-    st . markdown ( "<h2 style='color: black;'>1.- Conjunto de datos</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='color: black;'>1.- Conjunto de datos</h2>" , unsafe_allow_html = True )
 
-    st . markdown ( "<h2 style='color: black;'>Formulario de Google </h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='color: black;'>Formulario de Google </h2>" , unsafe_allow_html = True )
 
-    st . markdown ( "<h2 style='color: black;'>Preguntas </h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='color: black;'>Preguntas </h2>" , unsafe_allow_html = True )
 
-    st . markdown ( 'Del uno al cinco segun la escala dada se califico las siguientes canciones:' )
+    st.markdown ( 'Del uno al cinco segun la escala dada se califico las siguientes canciones:' )
 
  
-    st . markdown ( 'Formulario de Google' )
+    st.markdown ( 'Formulario de Google' )
 
 
-    st . imagen ( 'https://scontent.faqp2-1.fna.fbcdn.net/v/t39.30808-6/320803430_2534042946737581_4638513726078409310_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHuPW9i0i057wIeGX31Tjg6zub5xqJ23AjO5vnGonbcCDVYrVZM6f8Qfwdo6WF066Bx71BU41bEuQsTDK2aPU2b&_nc_ohc=VvDQm8k7MtgAX_Fuetx&_nc_ht=scontent.faqp2-1.fna&oh=00_AfBvcWkI92TTgkUoK3ZjeHc7qUac0isg9VDfycxDPJBjyw&oe=63A9691E' )
-    st . imagen ( 'https://scontent.faqp2-2.fna.fbcdn.net/v/t39.30808-6/321392210_713012620341312_1618897939528560238_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFSXYlXfZko7t_S_2gGlMKZQtNjPu8iV9FC02M-7yJX0YiSea2eJ7bWXn10WIUgoXCFPintattSSYW9-rxB4dLx&_nc_ohc=lcnUCmyPtqEAX-poU8h&_nc_ht=scontent.faqp2-2.fna&oh=00_AfC2ELvwmm1Z_9SDuZSrbfaGjdN04HaItgZxUOeVT9v0hg&oe=63AA8028' )
+    st.imagen ( 'https://scontent.faqp2-1.fna.fbcdn.net/v/t39.30808-6/320803430_2534042946737581_4638513726078409310_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeHuPW9i0i057wIeGX31Tjg6zub5xqJ23AjO5vnGonbcCDVYrVZM6f8Qfwdo6WF066Bx71BU41bEuQsTDK2aPU2b&_nc_ohc=VvDQm8k7MtgAX_Fuetx&_nc_ht=scontent.faqp2-1.fna&oh=00_AfBvcWkI92TTgkUoK3ZjeHc7qUac0isg9VDfycxDPJBjyw&oe=63A9691E' )
+    st.imagen ( 'https://scontent.faqp2-2.fna.fbcdn.net/v/t39.30808-6/321392210_713012620341312_1618897939528560238_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFSXYlXfZko7t_S_2gGlMKZQtNjPu8iV9FC02M-7yJX0YiSea2eJ7bWXn10WIUgoXCFPintattSSYW9-rxB4dLx&_nc_ohc=lcnUCmyPtqEAX-poU8h&_nc_ht=scontent.faqp2-2.fna&oh=00_AfC2ELvwmm1Z_9SDuZSrbfaGjdN04HaItgZxUOeVT9v0hg&oe=63AA8028' )
    
 
-    st . markdown ( "<h2 style='color: black;'>PFormulario de Google (Preprocesamiento) </h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='color: black;'>PFormulario de Google (Preprocesamiento) </h2>" , unsafe_allow_html = True )
 
-    st . markdown ( 'Procedemos a crear nuestro exel para luego ser convertido en un archivo csv con el fin de utilizarlo junto al comando panda y numpy.' )
+    st.markdown ( 'Procedemos a crear nuestro exel para luego ser convertido en un archivo csv con el fin de utilizarlo junto al comando panda y numpy.' )
 
-    st . imagen ( 'https://scontent.faqp2-2.fna.fbcdn.net/v/t39.30808-6/320883798_857727338791655_4101368769266917084_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeETD5uRsjg_dxuDwF_JnbWyfOJE7kY4m7584kTuRjibvlm73KkXs874kOqskQVA5zUooM-RQSBgw-K9YkE1JiXR&_nc_ohc=wVRttRX5jLQAX_uWnhH&_nc_ht=scontent.faqp2-2.fna&oh=00_AfDG90eMleVW9Z0W8u6abWZjOUgu70j5fkT7UZ0AsOkXQA&oe=63A9649D' )
+    st.imagen ( 'https://scontent.faqp2-2.fna.fbcdn.net/v/t39.30808-6/320883798_857727338791655_4101368769266917084_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeETD5uRsjg_dxuDwF_JnbWyfOJE7kY4m7584kTuRjibvlm73KkXs874kOqskQVA5zUooM-RQSBgw-K9YkE1JiXR&_nc_ohc=wVRttRX5jLQAX_uWnhH&_nc_ht=scontent.faqp2-2.fna&oh=00_AfDG90eMleVW9Z0W8u6abWZjOUgu70j5fkT7UZ0AsOkXQA&oe=63A9649D' )
     
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Archivo CSV separado por comas</h2>" , unsafe_allow_html = True )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Archivo CSV separado por comas</h2>" , unsafe_allow_html = True )
     pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
-    st . marco de datos ( pandas )
-    st . markdown ( 'Cantidad de Filas y Columnas' )
+    st.marco de datos ( pandas )
+    st.markdown ( 'Cantidad de Filas y Columnas' )
     
-    st . markdown ( '58 Columnas y 37 Filas' )
+    st.markdown ( '58 Columnas y 37 Filas' )
     
     
-si  correlacion_de_pearson :
+if  correlacion_de_pearson :
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Correlacion de Pearson y Sustitución de valores NAN</h2>" , unsafe_allow_html = True )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Correlacion de Pearson y Sustitución de valores NAN</h2>" , unsafe_allow_html = True )
     pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
-    st . markdown ( 'Se visualizan los valores NAN que serán imputados en el dataframe' )
-    st . marco de datos ( pandas )
-    st . markdown ( 'Se muestra donde se encuentran los valores NAN (float64)' )
+    st.markdown ( 'Se visualizan los valores NAN que serán imputados en el dataframe' )
+    st.marco de datos ( pandas )
+    st.markdown ( 'Se muestra donde se encuentran los valores NAN (float64)' )
     pandas _ tipos de d
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Tabla limpia de valores NAN</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'Los valores que reemplazan los NAN son la media' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Tabla limpia de valores NAN</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Los valores que reemplazan los NAN son la media' )
     data['CREO EN TI']=data['CREO EN TI'].replace(np.nan,4)
     data['COLGANDO EN TUS MANOS']=data['COLGANDO EN TUS MANOS'].replace(np.nan,4)
     data['MAMIII']=data['MAMIII'].replace(np.nan,3)
@@ -293,9 +293,9 @@ si  correlacion_de_pearson :
     data['SIGN OF THE TIMES ']=data['SIGN OF THE TIMES '].replace(np.nan,4)
     data['BLOODY MARY']=data['BLOODY MARY'].replace(np.nan,4)
     data['PROPUESTA INDECENTE']=data['PROPUESTA INDECENTE'].replace(np.nan,4)
-    st . marco de datos ( pandas )
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Tabla de Correlacion de Pandas</h2>" , unsafe_allow_html = True )
+    st.marco de datos ( pandas )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Tabla de Correlacion de Pandas</h2>" , unsafe_allow_html = True )
     n = data[data1.columns[1:]].to_numpy()
     m = data[data1.columns[0]].to_numpy()
     df = pd.DataFrame(n.T, columns = m)
@@ -303,10 +303,10 @@ si  correlacion_de_pearson :
     m_corr_pandas = df.corr()
     m_corr_pandas
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     
     
-si  nueva_correlacion :
+if  nueva_correlacion :
     
     st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
