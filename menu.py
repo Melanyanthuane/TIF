@@ -271,7 +271,7 @@ if  correlacion_de_pearson :
     st.markdown ( 'Se visualizan los valores NAN que serán imputados en el dataframe' )
     st.dataframe( pandas )
     st.markdown ( 'Se muestra donde se encuentran los valores NAN (float64)' )
-    pandas _ tipos de d
+    pandas.dtypes
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     st.markdown ( "<h2 style='text-align: center; color: black;'>Tabla limpia de valores NAN</h2>" , unsafe_allow_html = True )
     st.markdown ( 'Los valores que reemplazan los NAN son la media' )
