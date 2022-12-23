@@ -485,7 +485,7 @@ if  validacion_de_resultados :
     with st.echo ():
       
     
-if  conclusiones :
+if  conclusiones:
     
 
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )  
