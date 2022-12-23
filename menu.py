@@ -390,24 +390,6 @@ if  nueva_correlacion :
     
     m_corr_p = np.round(m_corr_pandas, decimals = 4)
     
-    with st.echo():   
-    def tidy_corr_matrix(corr_pandas):
-    '''
-    Función para convertir una matriz de correlación de pandas en formato tidy.
-    '''
-        corr_pandas = corr_pandas.stack().reset_index()
-        corr_pandas.columns = ['Datos1','Datos2','relacion']
-        corr_pandas = corr_pandas.loc[corr_pandas['Datos1'] != corr_pandas['Datos2'], :]
-        corr_pandas['may a men'] = np.abs(corr_pandas['relacion'])
-        corr_pandas = corr_pandas.sort_values('may a men', ascending=False)
-    
-        return(corr_pandas)
-
-    tidy_corr_matrix(m_corr_p).head(20)
-    
-    st.write ( ordenar )   
-    st.image ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    
 if  mapa_de_calor :
     
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
