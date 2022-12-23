@@ -269,7 +269,7 @@ if  correlacion_de_pearson :
     st.markdown ( "<h2 style='text-align: center; color: black;'>Correlacion de Pearson y Sustitución de valores NAN</h2>" , unsafe_allow_html = True )
     pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
     st.markdown ( 'Se visualizan los valores NAN que serán imputados en el dataframe' )
-    st.marco de datos ( pandas )
+    st.dataframe( pandas )
     st.markdown ( 'Se muestra donde se encuentran los valores NAN (float64)' )
     pandas _ tipos de d
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
@@ -293,7 +293,7 @@ if  correlacion_de_pearson :
     data['SIGN OF THE TIMES ']=data['SIGN OF THE TIMES '].replace(np.nan,4)
     data['BLOODY MARY']=data['BLOODY MARY'].replace(np.nan,4)
     data['PROPUESTA INDECENTE']=data['PROPUESTA INDECENTE'].replace(np.nan,4)
-    st.marco de datos ( pandas )
+    st.dataframe ( pandas )
     st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     st.markdown ( "<h2 style='text-align: center; color: black;'>Tabla de Correlacion de Pandas</h2>" , unsafe_allow_html = True )
     n = data[data1.columns[1:]].to_numpy()
@@ -308,10 +308,10 @@ if  correlacion_de_pearson :
     
 if  nueva_correlacion :
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Nuestro Algoritmo y su Respectivo Grafico</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'Para esta parte hemos tomado el dataframe limpio de valores NAN, para poder realizar nuestro algoritmo de correlacion, empezamos eliminando la columna de correo electronico para solo tener un dataframe de valores numericos.' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Nuestro Algoritmo y su Respectivo Grafico</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Para esta parte hemos tomado el dataframe limpio de valores NAN, para poder realizar nuestro algoritmo de correlacion, empezamos eliminando la columna de correo electronico para solo tener un dataframe de valores numericos.' )
     data['CREO EN TI']=data['CREO EN TI'].replace(np.nan,4)
     data['COLGANDO EN TUS MANOS']=data['COLGANDO EN TUS MANOS'].replace(np.nan,4)
     data['MAMIII']=data['MAMIII'].replace(np.nan,3)
@@ -338,7 +338,7 @@ if  nueva_correlacion :
     m_corr_pandas = df.corr()
     m_corr_pandas
     
-    con  st . eco ():       
+    con  st.eco ():       
         marco de datos1  =  pd . Marco de datos ( pandas )
         corr_Diferente = []
 
@@ -359,9 +359,9 @@ if  nueva_correlacion :
     respuesta = pd.DataFrame(correlacion_final,m2,m2)
     respuesta
     
-    st . dataframe ( dataframe_correlacion_pearson )
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Mayor Valor de Correlacion</h2>" , unsafe_allow_html = True )
+    st.dataframe ( dataframe_correlacion_pearson )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Mayor Valor de Correlacion</h2>" , unsafe_allow_html = True )
     data['CREO EN TI']=data['CREO EN TI'].replace(np.nan,4)
     data['COLGANDO EN TUS MANOS']=data['COLGANDO EN TUS MANOS'].replace(np.nan,4)
     data['MAMIII']=data['MAMIII'].replace(np.nan,3)
@@ -390,7 +390,7 @@ if  nueva_correlacion :
     
     m_corr_p = np.round(m_corr_pandas, decimals = 4)
     
-    con  st . eco ():   
+    con  st.eco ():   
     def tidy_corr_matrix(corr_pandas):
     '''
     Función para convertir una matriz de correlación de pandas en formato tidy.
@@ -405,12 +405,12 @@ if  nueva_correlacion :
 
     tidy_corr_matrix(m_corr_p).head(20)
     
-    st . escribir ( ordenar )   
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.write ( ordenar )   
+    st.image ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     
-si  mapa_de_calor :
+if  mapa_de_calor :
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
     marco de datos1  =  pd . Marco de datos ( pandas )
     lista1  =  dataframe1 [ 'Dirección de correo electrónico' ]. tolista ()
@@ -454,27 +454,27 @@ si  mapa_de_calor :
 
     tidy_corr_matrix(m_corr_p).head(20) 
 
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Mapa de Calor</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'En esta sección se mostrarán los mapas de calor obtenidos mediante la libreria pandas y el obtenido desde nuestro algoritmo. Comparando ambas para poder confirmar su similitud.' )
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align:; color: black;'>Mapa de Calor de Pandas</h2>" , unsafe_allow_html = True )
-    st . image ( 'https://scontent.faqp2-1.fna.fbcdn.net/v/t39.30808-6/321675318_717252202968243_2569053303383691197_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEp9yH_CLdoWx0JxCQD85nTfs03RmKri0R-zTdGYquLROkMmyuHseJ2IaxFcvb8XV9OjFiARttfxMWdFHUJOC7h&_nc_ohc=mflamIikrc8AX9KMlSD&_nc_ht=scontent.faqp2-1.fna&oh=00_AfDH3PLT6SfPxwo4JIMp6Ofa55WxuXdvldtPk3AQuVmBbA&oe=63AA0BAC' )
-    st . markdown ( "<h2 style='text-align:; color: black;'>Mapa de Calor personal </h2>" , unsafe_allow_html = True )
-    st . image ( 'https://scontent.faqp2-1.fna.fbcdn.net/v/t39.30808-6/321099572_1346330802807205_1098137571726666278_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGThkcpoboG--4wRn__tlNAY1I3LkboesRjUjcuRuh6xFyawAFnMEVR2Cqdz1hV1xzWjjIPnQP6D4j2TGfoNnWt&_nc_ohc=CbDIkOSUboMAX8hPrLp&_nc_ht=scontent.faqp2-1.fna&oh=00_AfC4PQALm1uRiYpakveqfqO8bTB6-6j0dfK0E8qPY2wOvA&oe=63AA2F26' )
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Mapa de Calor</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'En esta sección se mostrarán los mapas de calor obtenidos mediante la libreria pandas y el obtenido desde nuestro algoritmo. Comparando ambas para poder confirmar su similitud.' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align:; color: black;'>Mapa de Calor de Pandas</h2>" , unsafe_allow_html = True )
+    st.image ( 'https://scontent.faqp2-1.fna.fbcdn.net/v/t39.30808-6/321675318_717252202968243_2569053303383691197_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeEp9yH_CLdoWx0JxCQD85nTfs03RmKri0R-zTdGYquLROkMmyuHseJ2IaxFcvb8XV9OjFiARttfxMWdFHUJOC7h&_nc_ohc=mflamIikrc8AX9KMlSD&_nc_ht=scontent.faqp2-1.fna&oh=00_AfDH3PLT6SfPxwo4JIMp6Ofa55WxuXdvldtPk3AQuVmBbA&oe=63AA0BAC' )
+    st.markdown ( "<h2 style='text-align:; color: black;'>Mapa de Calor personal </h2>" , unsafe_allow_html = True )
+    st.image ( 'https://scontent.faqp2-1.fna.fbcdn.net/v/t39.30808-6/321099572_1346330802807205_1098137571726666278_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGThkcpoboG--4wRn__tlNAY1I3LkboesRjUjcuRuh6xFyawAFnMEVR2Cqdz1hV1xzWjjIPnQP6D4j2TGfoNnWt&_nc_ohc=CbDIkOSUboMAX8hPrLp&_nc_ht=scontent.faqp2-1.fna&oh=00_AfC4PQALm1uRiYpakveqfqO8bTB6-6j0dfK0E8qPY2wOvA&oe=63AA2F26' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
 
 
-si  validacion_de_resultados :
+if  validacion_de_resultados :
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: center; color: black;'>Validación de Resultados</h2>" , unsafe_allow_html = True )
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: ; color: black;'>Validacion-Matrix de Correlacion</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'Se debe llenar la tabla de VALIDACIÓN de la Matriz de Correlación con los valores de Similitud obtenidos En `NUMPY` a partir de las matrices nym con funciones. Se realiza la validación de los resultados obtenidos con la Matriz de Correlación de Pearson en Entumecido.' )
-    st . markdown ( "<h2 style='text-align: ; color: black;'>Validación de Resultados de Pandas</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'Valores de Similitud en pandas' )
-    pandas  =  pd . read_csv ( 'ENCUESTA.csv' )
-    marco de datos1  =  pd . Marco de datos ( pandas )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: center; color: black;'>Validación de Resultados</h2>" , unsafe_allow_html = True )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: ; color: black;'>Validacion-Matrix de Correlacion</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Se debe llenar la tabla de VALIDACIÓN de la Matriz de Correlación con los valores de Similitud obtenidos En `NUMPY` a partir de las matrices nym con funciones. Se realiza la validación de los resultados obtenidos con la Matriz de Correlación de Pearson en Entumecido.' )
+    st.markdown ( "<h2 style='text-align: ; color: black;'>Validación de Resultados de Pandas</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Valores de Similitud en pandas' )
+    pandas  =  pd.read_csv ( 'ENCUESTA.csv' )
+    marco de datos1  =  pd.dataframe ( pandas )
     lista1  =  dataframe1 [ 'Dirección de correo electrónico' ]. tolista ()
     data['CREO EN TI']=data['CREO EN TI'].replace(np.nan,4)
     data['COLGANDO EN TUS MANOS']=data['COLGANDO EN TUS MANOS'].replace(np.nan,4)
@@ -502,39 +502,39 @@ si  validacion_de_resultados :
     m_corr_pandas
     m_corr_p = np.round(m_corr_pandas, decimals = 4)
     
-    con  st . eco ():
+    con  st.eco ():
         
-    st . write ( 'noeliaparedesgu@gmail.com y gparedesg@unsa.edu.pe obtienen el PRIMER indice mas alto de similitud')
-    st . write ( 'noeliaparedesgu@gmail.com y elhuamani@unsa.edu.pe obtienen el SEGUNDO indice mas alto de similitud')
+    st.write ( 'noeliaparedesgu@gmail.com y gparedesg@unsa.edu.pe obtienen el PRIMER indice mas alto de similitud')
+    st.write ( 'noeliaparedesgu@gmail.com y elhuamani@unsa.edu.pe obtienen el SEGUNDO indice mas alto de similitud')
 
 
       
     
-si  conclusiones :
+if  conclusiones :
     
 
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )  
-    st . markdown ( "<h2 style='text-align: center ; color: black;'>Conclusiones</h2>" , unsafe_allow_html = True )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )  
+    st.markdown ( "<h2 style='text-align: center ; color: black;'>Conclusiones</h2>" , unsafe_allow_html = True )
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: ; color: black;'>¿Se valido o no los resultados?</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'Se realizo un formulario en google, para despues ser convertidos en un archivo CSV y utilizarlos conjuntamente con las librerias de data science Pandas, Seaborn, Matplotlib y Numpy. ' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: ; color: black;'>¿Se valido o no los resultados?</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Se realizo un formulario en google, para despues ser convertidos en un archivo CSV y utilizarlos conjuntamente con las librerias de data science Pandas, Seaborn, Matplotlib y Numpy. ' )
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: ; color: black;'>¿Es efectivo el método de conexión de pearson?</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'La correlacion de pearson fue eficiente para calcular la correlacion existente entre los datos que teniamos , estos valores necesitan ser de manera cuantitativa expresados ​​en valores numericos. Por los tanto podemos decir que el metodo de correlacion de Pearson si es efectivo.')
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: ; color: black;'>Los resultados Validados son:</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'Segun los resultados que fueron validos con Pandas y nuestro algoritmo los datos validados seria' )
-    st . markdown ( '1. noeliaparedesgu@gmail.com y gparedesg@unsa.edu.pe obtienen el PRIMER indice mas alto de similitud' )
-    st . markdown ( '2. noeliaparedesgu@gmail.com y elhuamani@unsa.edu.pe obtienen el SEGUNDO indice mas alto de similitud' )
-    
-    
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
-    st . markdown ( "<h2 style='text-align: ; color: black;'>Correlación de Pearson y Regresión Lineal, ¿cual es su relación?</h2>" , unsafe_allow_html = True )
-    st . markdown ( 'La correlación de Pearson, es el que mide la regresión lineal de los datos obtenidos, por lo tanto la regresión lineal es parte de la correlación de pearson. Siendo la correlación de pearson el método y la regresión lineal el resultado.' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: ; color: black;'>¿Es efectivo el método de conexión de pearson?</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'La correlacion de pearson fue eficiente para calcular la correlacion existente entre los datos que teniamos , estos valores necesitan ser de manera cuantitativa expresados ​​en valores numericos. Por los tanto podemos decir que el metodo de correlacion de Pearson si es efectivo.')
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: ; color: black;'>Los resultados Validados son:</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'Segun los resultados que fueron validos con Pandas y nuestro algoritmo los datos validados seria' )
+    st.markdown ( '1. noeliaparedesgu@gmail.com y gparedesg@unsa.edu.pe obtienen el PRIMER indice mas alto de similitud' )
+    st.markdown ( '2. noeliaparedesgu@gmail.com y elhuamani@unsa.edu.pe obtienen el SEGUNDO indice mas alto de similitud' )
     
     
-    st . imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
+    st.markdown ( "<h2 style='text-align: ; color: black;'>Correlación de Pearson y Regresión Lineal, ¿cual es su relación?</h2>" , unsafe_allow_html = True )
+    st.markdown ( 'La correlación de Pearson, es el que mide la regresión lineal de los datos obtenidos, por lo tanto la regresión lineal es parte de la correlación de pearson. Siendo la correlación de pearson el método y la regresión lineal el resultado.' )
+    
+    
+    st.imagen ( 'https://user-images.githubusercontent.com/19308295/115926262-2fb62980-a448-11eb-8189-c2f10e499944.png' )
     
     
