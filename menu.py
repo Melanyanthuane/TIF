@@ -338,8 +338,8 @@ if  nueva_correlacion :
     m_corr_pandas = df.corr()
     m_corr_pandas
     
-    con  st.eco ():       
-        marco de datos1  =  pd . Marco de datos ( pandas )
+    with st.echo():       
+        marco de datos1  =  pd.Dataframe( pandas )
         corr_Diferente = []
 
     def matriz_corr(x,y):
